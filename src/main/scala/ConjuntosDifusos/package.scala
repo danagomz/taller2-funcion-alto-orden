@@ -9,13 +9,13 @@ package object ConjuntosDifusos {
   def grande(d: Int, e: Int): ConjDifuso = ??? //{}
 
   def complemento(c: ConjDifuso): ConjDifuso = {
-    x => 1.0 - c(x)
+    def noPertenece(x: Int): Double = 1.0 - c(x)
+    noPertenece
   }
 
   def union(cd1: ConjDifuso, cd2: ConjDifuso): ConjDifuso = ??? //{}
 
   def interseccion(cd1: ConjDifuso, cd2: ConjDifuso): ConjDifuso = ??? //{}
-
 
   def inclusion(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
 
