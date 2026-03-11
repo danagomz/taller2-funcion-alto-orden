@@ -31,14 +31,14 @@ val muchoMayorQue5_14 = muchoMayorQue(5, 14)
  */
 // COMPLEMENTOS
 val complementoMuchoMayorQue4_10 = complemento(muchoMayorQue4_10)
-val complementoCercanosA3_4 = complemento(cercanosA1_2)
+val complementoCercanosA1_2 = complemento(cercanosA1_2)
 
 // PRUEBAS DE COMPLEMENTO
 complementoMuchoMayorQue4_10(5)
 complementoMuchoMayorQue4_10(3)
 complementoMuchoMayorQue4_10(1)
-complementoCercanosA3_4(3)
-complementoCercanosA3_4(4)
+complementoCercanosA1_2(3)
+complementoCercanosA1_2(4)
 
 
 
@@ -48,7 +48,7 @@ complementoCercanosA3_4(4)
 inclusion(muchoMayorQue4_10, muchoMayorQue4_10)
 inclusion(muchoMayorQue4_10, muchoMayorQue5_14)
 inclusion(muchoMayorQue5_14, muchoMayorQue4_10)
-inclusion(complementoMuchoMayorQue4_10, complementoCercanosA3_4)
+inclusion(complementoMuchoMayorQue4_10, complementoCercanosA1_2)
 inclusion(muchoMayorQue4_10, complementoMuchoMayorQue4_10)
 
 
