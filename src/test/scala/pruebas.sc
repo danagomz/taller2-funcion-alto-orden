@@ -24,17 +24,20 @@ val muchoMayorQue4_10 = muchoMayorQue(4, 10)
 val cercanosA1_2 = cercanosA(1, 2)
 val muchoMayorQue5_14 = muchoMayorQue(5, 14)
 
+/**
+ * EJERCICIO NUMEROS GRANDES
+ */
 
-
+// NUMEROS GRANDES
+grande1_10(0)
+grande1_10(1)
+grande1_10(5)
+grande1_10(10)
+grande1_10(100)
 
 /**
  * EJERCICIO COMPLEMENTO
  */
-
-// NUMEROS GRANDES
-grande1_10(5)
-grande1_10(10)
-grande1_10(100)
 
 // COMPLEMENTOS
 val complementoMuchoMayorQue4_10 = complemento(muchoMayorQue4_10)
@@ -59,7 +62,6 @@ val unionCercanosMuchoMayor = union(cercanosA1_2, muchoMayorQue5_14)
 unionGrandeMuchoMayor(5)
 unionGrandeMuchoMayor(10)
 unionGrandeMuchoMayor(100)
-
 unionCercanosMuchoMayor(1)
 unionCercanosMuchoMayor(5)
 unionCercanosMuchoMayor(10)
@@ -76,7 +78,6 @@ val interseccionCercanosMuchoMayor = interseccion(cercanosA1_2, muchoMayorQue5_1
 interseccionGrandeMuchoMayor(5)
 interseccionGrandeMuchoMayor(10)
 interseccionGrandeMuchoMayor(100)
-
 interseccionCercanosMuchoMayor(1)
 interseccionCercanosMuchoMayor(5)
 interseccionCercanosMuchoMayor(10)
@@ -89,7 +90,6 @@ inclusion(muchoMayorQue4_10, muchoMayorQue5_14)
 inclusion(muchoMayorQue5_14, muchoMayorQue4_10)
 inclusion(complementoMuchoMayorQue4_10, complementoCercanosA1_2)
 inclusion(muchoMayorQue4_10, complementoMuchoMayorQue4_10)
-
 
 
 /**
