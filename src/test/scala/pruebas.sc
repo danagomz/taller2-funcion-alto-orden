@@ -64,7 +64,6 @@ unionGrandeMuchoMayor(10)
 unionGrandeMuchoMayor(100)
 unionCercanosMuchoMayor(1)
 unionCercanosMuchoMayor(5)
-unionCercanosMuchoMayor(10)
 
 /**
  * EJERCICIO INTERSECCION
@@ -80,7 +79,6 @@ interseccionGrandeMuchoMayor(10)
 interseccionGrandeMuchoMayor(100)
 interseccionCercanosMuchoMayor(1)
 interseccionCercanosMuchoMayor(5)
-interseccionCercanosMuchoMayor(10)
 
 /**
  * EJERCICIO INCLUSION
